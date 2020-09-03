@@ -1,0 +1,30 @@
+title: Tom Stockwell
+subtitle: A blog
+baseURL: /
+theme: hello-friend
+paginate: 5
+enableEmoji: true
+enableGitInfo: true
+
+params:
+  contentTypeName: posts
+  defaultTheme: dark
+  copyright:
+  keywords: software, development, coding, red hat, openshift
+  dateFormatSingle: Monday, 2 Jan, 2006
+  dateFormatList: Monday, 2 Jan, 2006
+  showMenuItems: 2
+  showReadingTime: true
+
+  logo:
+    logoText: echo "Tom Stockwell"
+    logoHomeLink: /
+
+menu:
+  main:
+    - identifier: about
+      name: About
+      url: /about
+    - identifier: showcase
+      name: Showcase
+      url: /showcase
