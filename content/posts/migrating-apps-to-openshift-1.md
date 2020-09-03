@@ -9,6 +9,7 @@ This post was originally published on Red Hat Developer. To read the original po
 &nbsp;
 
 ---
+
 &nbsp;
 
 I help teams migrate their applications onto [Red Hat OpenShift](http://developers.redhat.com/openshift/), so I can't help but notice patterns and considerations that arise regarding the migration process.
