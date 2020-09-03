@@ -1,1 +1,4 @@
 /public/
+_gen/
+node_modules/
+

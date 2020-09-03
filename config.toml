@@ -1,4 +1,61 @@
-baseURL = "https://stocky37.github.io/"
+title = "Tom Stockwell"
+baseurl = "/"
 languageCode = "en-us"
-title = "Stocky37 - Blog"
-theme = "ananke"
+theme = "hello-friend"
+paginate = 5
+
+[params]
+    # dir name of your blog content (default is `content/posts`).
+    # the list of set content will show up on your index page (baseurl).
+    contentTypeName = "posts"
+
+    # "light" or "dark"
+    defaultTheme = "dark"
+
+    # if you set this to 0, only submenu trigger will be visible
+    showMenuItems = 2
+
+    # Show reading time in minutes for posts
+    showReadingTime = true
+
+    # Show table of contents at the top of your posts (defaults to false)
+    # Alternatively, add this param to post front matter for specific posts
+    # toc = true
+
+    # Show full page content in RSS feed items
+    #(default is Description or Summary metadata in the front matter)
+    # rssFullText = true
+
+[languages]
+    [languages.en]
+    title = "Tom Stockwell"
+    subtitle = "A blog"
+    keywords = "software, development, coding, red hat, openshift"
+    copyright = ""
+    menuMore = "Show more"
+    writtenBy = "Written by"
+    readMore = "Read more"
+    readOtherPosts = "Read other posts"
+    newerPosts = "Newer posts"
+    olderPosts = "Older posts"
+    minuteReadingTime = "min read"
+    dateFormatSingle = "Monday, 2 Jan, 2006"
+    dateFormatList = "Monday, 2 Jan, 2006"
+
+    [languages.en.params.logo]
+        logoText = "echo \"Tom Stockwell\""
+        logoHomeLink = "/"
+        # or
+        #
+        # path = "/img/your-example-logo.svg"
+        # alt = "Your example logo alt text"
+
+    [languages.en.menu]
+        [[languages.en.menu.main]]
+            identifier = "about"
+            name = "About"
+            url = "/about"
+        [[languages.en.menu.main]]
+            identifier = "showcase"
+            name = "Showcase"
+            url = "/showcase"
