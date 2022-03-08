@@ -3,14 +3,7 @@
   "description": "My personal website/blog",
   "license": "ISC",
   "author": "Tom Stockwell <tom@stockwells.me>",
-  "homepage": "https://stocky37.github.io",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/stocky37/stocky37.github.io.git"
-  },
-  "bugs": {
-    "url": "https://github.com/stocky37/stocky37.github.io/issues"
-  },
+  "homepage": "https://tom-stockwell.github.io",
   "version": "1.0.0",
   "scripts": {
     "format": "prettier-package-json --write && prettier --write .",
